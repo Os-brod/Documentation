@@ -1,6 +1,6 @@
 # Crypto Swap API Documentation
 
-**Base URL**: `https://yourwebsite.com/api/v1/`
+**Base URL**: `https://cryptofuse.net/crypto_swap/api/`
 
 ## Endpoints
 
