@@ -32,7 +32,7 @@ async function fetchAvailableCryptos() {
 fetchAvailableCryptos();
 ```
 
-```json
+```javascript
 {
 'available_cryptos': [
     ['NANO', 'Nano'], 
@@ -75,7 +75,7 @@ async function fetchExchangeRate(fromCrypto, toCrypto) {
 fetchExchangeRate('NANO', 'BAN');
 ```
 
-```json
+```javascript
 {'exchange_rate': '0.00644087981495262853616993048285242972'}
 ```
 
@@ -113,7 +113,7 @@ async function generateAddress(fromCrypto, toCrypto, userAddress, referral) {
 generateAddress('BAN', 'NANO', 'userAddress', 'referralCode');
 
 ```
-```json
+```javascript
 {
 'success': 'Deposit to BAN address: ban_3ewf7er5xegujz5a7fzzzfykkzwtp7eedc679b8wuaaiu8fksyzmgmctwrxn', '
 id': 'ba2525a7-59b7-4465-b8e2-591d6daaaaf6', 
@@ -153,7 +153,7 @@ async function registerReferral(toCrypto, userAddress, referral) {
 
 registerReferral('BAN', 'userAddress', 'referralCode');
 ```
-```json
+```javascript
 {'success': 'Referral registered successfully. Your referral link is: cryptofuse.net?ref=referralCode'}
 ```
 
@@ -187,7 +187,7 @@ const uuid = 'f83c6733-2a27-4e7c-b6e7-f3fd01ee4ab3'; //sample uuid
 getAddressByUUID(uuid);
 ```
 
-```json
+```javascript
 {
 'success': 'Successfully retrieved address by uuid', 
 'our_address': 'nano_3nbdsbhaysadgr6xzgy4zw111ebraubo3z18bppqn97cjnzsnuciy4f98ek1', 
@@ -239,7 +239,7 @@ getLatestTransaction(sample_uuid, 'sample-transaction-id', 'sample-status');
 ```
 
 
-```json
+```javascript
 {
 'success': 'Found latest transaction', 
 'new_transaction': True, 
@@ -259,7 +259,7 @@ getLatestTransaction(sample_uuid, 'sample-transaction-id', 'sample-status');
 ```
 #### Now inputting id and status back into the function, and the transaction was not updated:
 
-```json
+```javascript
 {'new_transaction': False}
 ```
 
