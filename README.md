@@ -164,7 +164,7 @@ registerReferral('BAN', 'userAddress', 'referralCode');
 * **Method:** `GET`
 * **Rate Limit:** 3 requests per minute
 * **Request Params:** `uuid`
-* **Response:** JSON object with the address corresponding to the given UUID
+* **Response:** JSON object with the address corresponding to the given UUID, and QR Code in Base64 string
 
 ```javascript
 async function getAddressByUUID(uuid) {
