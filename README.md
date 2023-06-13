@@ -263,6 +263,11 @@ getLatestTransaction(sample_uuid, 'sample-transaction-id', 'sample-status');
 ```
 {'new_transaction': False}
 ```
+#### And no transaction for the UUID:
+```
+{'message': 'No transactions found for this address'}
+```
+
 
 
 ## Error Handling
