@@ -116,8 +116,8 @@ generateAddress('BAN', 'NANO', 'userAddress', 'referralCode');
 ```
 ```
 {
-'success': 'Deposit to BAN address: ban_3ewf7er5xegujz5a7fzzzfykkzwtp7eedc679b8wuaaiu8fksyzmgmctwrxn', '
-id': 'ba2525a7-59b7-4465-b8e2-591d6daaaaf6', 
+'success': 'Deposit to BAN address: ban_3ewf7er5xegujz5a7fzzzfykkzwtp7eedc679b8wuaaiu8fksyzmgmctwrxn', 
+'id': 'ba2525a7-59b7-4465-b8e2-591d6daaaaf6', 
 'transaction_url': 'https://www.cryptofuse.net/crypto_swap/address/ba2525a7-59b7-4465-b8e2-591d6daaaaf6/'
 }
 ```
