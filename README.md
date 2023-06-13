@@ -281,6 +281,7 @@ Always check the HTTP status code and message included in the server response to
 ## Status Codes
 
 * `200`: Success
+* `301`: Moved permanently (Missing www?)
 * `400`: Bad Request (Client Error)
 * `404`: Not Found
 * `429`: Too Many Requests (Rate Limit Exceeded)
