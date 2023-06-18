@@ -308,7 +308,7 @@ getCryptoSwapStatus();
 
 #### Note
 
-* Generally it is assumed that last_updated older than 5 minutes is basically offline.
+* It's generally assumed that last_updated older than 5 minutes is basically offline.
 
 
 
