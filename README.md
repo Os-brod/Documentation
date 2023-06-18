@@ -306,7 +306,7 @@ getCryptoSwapStatus();
 'SOL': {'is_online': True, 'last_updated': '2023-06-18T07:37:16.710Z'}}
 ```
 
-## Note
+#### Note
 
 * Generally it is assumed that last_updated older than 5 minutes is basically offline.
 
