@@ -269,6 +269,48 @@ getLatestTransaction(sample_uuid, 'sample-transaction-id', 'sample-status');
 ```
 
 
+### 7. Get Crypto Swap Status
+
+* **Endpoint:** `crypto_swap_status/`
+* **Method:** `POST`
+* **Request Body:** JSON object with no parameters.
+* **Response:** JSON object with the crypto swap status for each cryptocurrency.
+
+#### Usage
+To get the crypto swap status, make a POST request to the `crypto_swap_status/` endpoint. The server will respond with a JSON object containing the status for each cryptocurrency.
+
+```javascript
+async function getCryptoSwapStatus() {
+    try {
+        const response = await fetch('https://www.cryptofuse.net/crypto_swap/api/crypto_swap_status/', {
+            method: 'POST'
+        });
+        
+        const data = await response.json();
+        console.log(data);
+
+
+
+    } catch (error) {
+        console.error('Error getting the crypto swap status:', error);
+    }
+}
+
+// Call the function to get the crypto swap status
+getCryptoSwapStatus();
+```
+
+```
+{'NANO': {'is_online': True, 'last_updated': '2023-06-18T07:36:41.255Z'}, 
+'BAN': {'is_online': True, 'last_updated': '2023-06-18T07:37:13.971Z'}, 
+'SOL': {'is_online': True, 'last_updated': '2023-06-18T07:37:16.710Z'}}
+```
+
+## Note
+
+* Generally it is assumed that last_updated older than 5 minutes is basically offline.
+
+
 
 ## Error Handling
 
