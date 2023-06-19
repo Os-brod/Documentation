@@ -1,4 +1,4 @@
-# Crypto Swap API Documentation
+# CryptoFuse.net API Documentation
 
 **Base URL**: `https://www.cryptofuse.net/crypto_swap/api/`
 
